@@ -37,5 +37,18 @@
 }
 
 .banner__link--seta img{
+    position: relative;
     width: 30px;
+    -webkit-animation: up-to-down 1s infinite alternate;
+    animation: up-to-down 1s infinite alternate;
+}
+
+@keyframes up-to-down{
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(-10px);
+    }
 }
