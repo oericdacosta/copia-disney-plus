@@ -1,4 +1,4 @@
-.indicacoes, .indicacoes-container, .indicacoes-container-textos{
+.indicacoes, .indicacoes-container-imagens, .indicacoes-container-textos{
     display: flex;
 }
 
@@ -22,7 +22,7 @@
     border-bottom-color: var(--branco);
 }
 
-.indicacoes-container{
+.indicacoes-container-imagens{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -32,10 +32,10 @@
     display: none;
 }
 
-.indicacoes-container img{
+.indicacoes-container-imagens img{
     width: 40%;
 }
 
-.indicacoes-container img:nth-child(3), .indicacoes-container img:nth-child(4){
+.indicacoes-container-imagens img:nth-child(3), .indicacoes-container-imagens img:nth-child(4){
     margin: 1.4rem 0;
 }
