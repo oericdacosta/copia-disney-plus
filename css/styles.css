@@ -1,5 +1,6 @@
 @import url(cabecalho.css);
 @import url(banner.css);
+@import url(indicacoes.css);
 
 :root{
     --roxo-claro: #6421ff;
