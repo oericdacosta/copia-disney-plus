@@ -1,0 +1,26 @@
+@import url(cabecalho.css);
+@import url(banner.css);
+
+:root{
+    --roxo-claro: #6421ff;
+    --azul: #0063e5;
+    --azul-escuro: #040714;
+    --azul-escuro-transparente: #000000cc;
+    --cinza-claro: #13151D;
+    --branco: #FFF;
+
+    --fonte-principal: 'Josefin Sans', sans-serif;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--azul-escuro);
+}
+
+.background-mobile{
+    background: url(../img/background-mobile.jfif) no-repeat center center;
+    background-size: 100%;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+}
