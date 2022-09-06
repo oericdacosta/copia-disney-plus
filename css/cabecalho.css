@@ -1,0 +1,13 @@
+.cabecalho__link{
+    float: right;
+    box-sizing: border-box;
+    color: var(--branco);
+    margin-top: .6rem;
+    margin-right: 1rem;
+    padding: .8rem .5rem;
+    background-color: var(--azul-escuro-transparente);
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid var(--branco);
+}
