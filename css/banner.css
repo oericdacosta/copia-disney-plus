@@ -26,7 +26,7 @@
     text-transform: uppercase;
     text-align: center;
     color: var(--branco);
-    width: 90%;
+    width: 90vw;
     padding: 1rem;
     background-color: var(--roxo-claro);
     border-radius: 5px;
