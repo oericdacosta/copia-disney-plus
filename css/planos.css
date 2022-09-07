@@ -1,0 +1,82 @@
+.planos{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--branco);
+}
+
+.planos__titulo{
+    font-size: 1.62rem;
+    margin-bottom: 5rem;
+}
+
+.planos__cartoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartoes__cartao{
+    width: 80%;
+    text-align: center;
+}
+
+.cartao__img{
+    width: 20%;
+    padding: .5rem 5rem;
+    border-bottom: 1px solid var(--azul-claro-transparente);
+    margin-bottom: 2.5rem;
+}
+
+.cartao__titulo{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.cartao__texto{
+    text-align: center;
+    width: 70vw;
+    max-width: 290px;
+    margin: 0 auto;
+    line-height: 1.4rem;
+    font-size: .94rem;
+    color: var(--cinza);
+    margin-bottom: 1rem;
+}
+
+.cartao__botao{
+    display: block;
+    color: var(--branco);
+    width: 70%;
+    line-height: 32px;
+    margin: 0 auto;
+    padding: .2rem .2rem;
+    background-color: var(--roxo-claro);
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.cartoes__cartao:nth-child(2){
+    box-sizing: border-box;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    background: url(../img/precos.png);
+    background-size: cover;
+}
+
+.cartoes__cartao:nth-child(2) .cartao__img{
+    margin-top: 4rem;
+    width: 75%;
+    padding: 0;
+    border-bottom: none;
+}
+
+.cartoes__cartao:nth-child(3) .cartao__img{
+    width: 85%;
+    padding: 0;
+    border-bottom: none;
+}
