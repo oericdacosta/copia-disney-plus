@@ -1,13 +1,15 @@
 @import url(cabecalho.css);
 @import url(banner.css);
 @import url(indicacoes.css);
+@import url(planos.css);
 
 :root{
     --roxo-claro: #6421ff;
     --azul: #0063e5;
+    --azul-claro-transparente: #0085f167;
     --azul-escuro: #040714;
     --azul-escuro-transparente: #000000cc;
-    --cinza-claro: #13151D;
+    --cinza: #C0C0C0;
     --branco: #FFF;
 
     --fonte-principal: 'Josefin Sans', sans-serif;
