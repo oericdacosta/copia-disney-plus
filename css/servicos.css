@@ -1,0 +1,33 @@
+.servicos-container{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.servicos{
+    color: var(--branco);
+    text-align: center;
+}
+
+.servicos:last-child{
+    margin-top: 2rem;
+}
+
+.servicos__img{
+    width: 80vw;
+}
+
+.servicos:last-child .servicos__img{
+    width: 100%;
+}
+
+.servicos__titulo{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.servicos__texto{
+    color: var(--cinza);
+    line-height: 1.4rem;
+    text-align: center;
+    width: 88vw;
+}
