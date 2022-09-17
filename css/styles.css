@@ -2,6 +2,7 @@
 @import url(banner.css);
 @import url(indicacoes.css);
 @import url(planos.css);
+@import url(servicos.css);
 
 :root{
     --roxo-claro: #6421ff;
