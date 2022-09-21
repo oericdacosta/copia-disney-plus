@@ -1,0 +1,46 @@
+.dispositivos-container{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.dispositivos{
+    text-align: center;
+    color: var(--branco);
+    margin-top: 8rem;
+}
+
+.dispositivos__titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.dispositivos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dispositivos__lista__item{
+    width: 45%;
+}
+
+.item__img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.item__titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.item__texto{
+    color: var(--cinza);
+}
+
+.item__texto:not(:first-child), .item__texto:not(:last-child){
+    margin: .5rem 0;
+}
