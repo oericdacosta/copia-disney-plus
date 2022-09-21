@@ -3,6 +3,7 @@
 @import url(indicacoes.css);
 @import url(planos.css);
 @import url(servicos.css);
+@import url(dispositivos.css);
 
 :root{
     --roxo-claro: #6421ff;
