@@ -4,6 +4,7 @@
 @import url(planos.css);
 @import url(servicos.css);
 @import url(dispositivos.css);
+@import url(faq.css);
 
 :root{
     --roxo-claro: #6421ff;
@@ -13,6 +14,8 @@
     --azul-escuro-transparente: #000000cc;
     --cinza: #C0C0C0;
     --branco: #FFF;
+    --preto: rgba(0, 0, 0, .1);
+    --cinza-escuro: #13151D;
 
     --fonte-principal: 'Josefin Sans', sans-serif;
 }
@@ -28,4 +31,11 @@ body{
     background-position: top;
     display: flex;
     flex-direction: column;
+}
+
+.container{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1.5rem;
 }
