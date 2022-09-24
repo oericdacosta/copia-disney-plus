@@ -1,0 +1,65 @@
+.faq{
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco);
+    margin-top: 8rem;
+}
+
+.acordeao__titulo{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+
+.acordeao__item{
+    background-color: var(--cinza-escuro);
+    border-radius: .4rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem var(--preto);
+}
+
+.acordeao__item:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.acordeao__link{
+    color: var(--branco);
+    font-size: 1.2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.acordeao__link i{
+    padding: .5rem;
+}
+
+.acordeao__link .ion-md-remove{
+    display: none;
+}
+
+.resposta{
+    color: var(--cinza);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 650ms;
+}
+
+.acordeao__item:target .resposta{
+    max-height: 20rem;
+}
+
+.acordeao__item:target .acordeao__link .ion-md-remove{
+    display: block;
+}
+
+.acordeao__item:target .acordeao__link .ion-md-add{
+    display: none;
+}
